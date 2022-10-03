@@ -14,6 +14,7 @@
 		E60D648D28EB4D3400EE5D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60D648C28EB4D3400EE5D1E /* Assets.xcassets */; };
 		E60D649028EB4D3400EE5D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60D648E28EB4D3400EE5D1E /* LaunchScreen.storyboard */; };
 		E6DE230028EB549A00539A38 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DE22FF28EB549A00539A38 /* SecondViewController.swift */; };
+		E6DE230228EB5CE000539A38 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DE230128EB5CE000539A38 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E60D648F28EB4D3400EE5D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E60D649128EB4D3400EE5D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6DE22FF28EB549A00539A38 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E6DE230128EB5CE000539A38 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E60D648E28EB4D3400EE5D1E /* LaunchScreen.storyboard */,
 				E60D649128EB4D3400EE5D1E /* Info.plist */,
 				E6DE22FF28EB549A00539A38 /* SecondViewController.swift */,
+				E6DE230128EB5CE000539A38 /* ThirdViewController.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				E6DE230028EB549A00539A38 /* SecondViewController.swift in Sources */,
 				E60D648828EB4D3200EE5D1E /* ViewController.swift in Sources */,
+				E6DE230228EB5CE000539A38 /* ThirdViewController.swift in Sources */,
 				E60D648428EB4D3200EE5D1E /* AppDelegate.swift in Sources */,
 				E60D648628EB4D3200EE5D1E /* SceneDelegate.swift in Sources */,
 			);

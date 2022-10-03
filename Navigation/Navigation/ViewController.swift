@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var textField: UITextField!
     
+    @IBOutlet weak var helloLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -26,6 +27,22 @@ class ViewController: UIViewController {
         
         present(destination, animated: true) // модальное представление
     }
+    @IBAction func pushButtonPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let destionation = storyboard.instantiateViewController(withIdentifier: "ThirdViewController")
+        guard let thirdViewController = destionation as? ThirdViewController else { return }
+        thirdViewController.text = textField.text
+        thirdViewController.delegate = self
+        navigationController?.pushViewController(destionation, animated: true)
+        
+        
+    }
     
 }
+extension ViewController: ThirdViewControllerDelegate {
+    func didPassData(text: String) {
+        helloLabel.text = text
+    }
+}
+
 
